@@ -6,7 +6,7 @@ namespace Api.Controllers
 {
     [RoutePrefix("api/produto")]
     public class ProdutoController : ApiController
-    { 
+    {
         [HttpGet]
         public List<string> BuscarTudo()
         {
